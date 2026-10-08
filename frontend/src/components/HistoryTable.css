@@ -1,0 +1,27 @@
+.table-wrapper {
+  overflow-x: auto; /* chhote screen par table scroll ho sake */
+}
+
+.history-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.history-table th,
+.history-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid var(--border);
+}
+
+.history-table th {
+  background: var(--green-light);
+  color: var(--green-dark);
+}
+
+.history-thumb {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 8px;
+}

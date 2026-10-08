@@ -1,0 +1,25 @@
+.about-card {
+  margin-bottom: 20px;
+}
+
+.about-card h2 {
+  color: var(--green-main);
+  margin-bottom: 10px;
+}
+
+.about-card p {
+  color: var(--text-light);
+}
+
+.tech-list {
+  list-style: none;
+}
+
+.tech-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.tech-list li:last-child {
+  border-bottom: none;
+}

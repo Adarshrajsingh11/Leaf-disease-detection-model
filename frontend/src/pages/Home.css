@@ -1,0 +1,61 @@
+.hero {
+  text-align: center;
+  padding: 48px 20px;
+  background: linear-gradient(135deg, var(--green-light), #ffffff);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.hero-title {
+  font-size: 2.4rem;
+  color: var(--green-dark);
+  margin-bottom: 16px;
+}
+
+.hero-text {
+  max-width: 600px;
+  margin: 0 auto 28px;
+  color: var(--text-light);
+  font-size: 1.1rem;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.steps {
+  margin-top: 48px;
+}
+
+.steps-title {
+  text-align: center;
+  color: var(--green-dark);
+  margin-bottom: 24px;
+}
+
+.steps-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.step-card {
+  text-align: center;
+}
+
+.step-icon {
+  font-size: 2.5rem;
+  margin-bottom: 8px;
+}
+
+.step-card h3 {
+  color: var(--green-main);
+  margin-bottom: 8px;
+}
+
+.step-card p {
+  color: var(--text-light);
+}

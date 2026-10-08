@@ -1,0 +1,29 @@
+.uploader {
+  border: 2px dashed var(--green-main);
+  border-radius: var(--radius);
+  background: var(--green-light);
+  padding: 48px 20px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.uploader:hover,
+.uploader.dragging {
+  background: #c8e6c9;
+  border-color: var(--green-dark);
+}
+
+.uploader-icon {
+  font-size: 3rem;
+  margin-bottom: 8px;
+}
+
+.uploader-text {
+  font-weight: 600;
+  color: var(--green-dark);
+}
+
+.uploader-hint {
+  color: var(--text-light);
+}

@@ -1,0 +1,9 @@
+.history-empty {
+  text-align: center;
+  padding: 24px;
+}
+
+.history-empty p {
+  color: var(--text-light);
+  margin-bottom: 16px;
+}

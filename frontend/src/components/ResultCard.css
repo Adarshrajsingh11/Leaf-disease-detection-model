@@ -1,0 +1,105 @@
+.result-card {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.result-img {
+  width: 300px;
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.result-info {
+  flex: 1;
+  min-width: 260px;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.status-badge.healthy {
+  background: var(--green-light);
+  color: var(--green-dark);
+}
+
+.status-badge.diseased {
+  background: #fff3e0;
+  color: var(--warning);
+}
+
+.result-disease {
+  font-size: 1.8rem;
+  color: var(--text-dark);
+  margin-bottom: 16px;
+}
+
+.result-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  color: var(--text-light);
+}
+
+.result-row strong {
+  color: var(--text-dark);
+}
+
+.confidence-bar {
+  height: 12px;
+  background: #e4e7eb;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.confidence-fill {
+  height: 100%;
+  border-radius: 6px;
+  transition: width 0.6s ease;
+}
+
+.confidence-fill.high {
+  background: var(--green-main);
+}
+
+.confidence-fill.medium {
+  background: var(--warning);
+}
+
+.confidence-fill.low {
+  background: var(--danger);
+}
+
+.confidence-label {
+  margin-top: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.confidence-label.high {
+  color: var(--green-main);
+}
+
+.confidence-label.medium {
+  color: var(--warning);
+}
+
+.confidence-label.low {
+  color: var(--danger);
+}
+
+.result-date {
+  margin-top: 14px;
+  font-size: 0.85rem;
+  color: var(--text-light);
+}

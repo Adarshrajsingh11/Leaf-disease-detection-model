@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Secrets
+.env
+backend/.env
+
+# Uploaded images
+uploads/user-images/*
+uploads/temporary/*
+backend/uploads/*
+!uploads/user-images/.gitkeep
+!uploads/temporary/.gitkeep
+!backend/uploads/.gitkeep
+
+# Large datasets
+dataset/raw/*
+dataset/train/*
+dataset/validation/*
+dataset/test/*
+!dataset/raw/.gitkeep
+!dataset/train/.gitkeep
+!dataset/validation/.gitkeep
+!dataset/test/.gitkeep
+
+# Trained models (large) - remove these lines if you want to commit the model
+ml-model/models/trained_model/*
+ml-model/models/*.keras
+ml-model/models/*.h5
+!ml-model/models/trained_model/.gitkeep
+
+# Build / OS / IDE
+build/
+dist/
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
+!.env.example
